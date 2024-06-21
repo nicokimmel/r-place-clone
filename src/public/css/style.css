@@ -1,0 +1,25 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    margin-bottom: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#canvas {
+    display: block;
+    border: black 1px solid;
+    width: 800px;
+    height: auto;
+    image-rendering: pixelated;
+}

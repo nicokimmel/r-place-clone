@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>r/Place Clone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/api.js" defer></script>
+    <script src="js/canvas.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <h1>r/Place Clone</h1>
+        <p id="info"></p>
+        <canvas id="canvas"></canvas>
+        
+        <h2>How to participate</h2>
+        <p>Send api POST requests to <code>/api/pixel</code> with the following JSON payload:</p>
+        <code>
+            {
+                "x": 250,
+                "y": 420,
+                "color": "#FF0000"
+            }
+        </code>
+
+    </main>
+</body>
